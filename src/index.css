@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Gwendolyn:wght@400;700&family=Montserrat:ital,wght@0,200;0,400;0,600;0,800;1,200;1,400;1,600;1,800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Montserrat, sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background-image: url('src/assets/images/bgtest1.jpg');
+  color: white;
+  font-weight: 600;
+  line-height: 1rem;
+  padding-bottom: 2rem;
+}

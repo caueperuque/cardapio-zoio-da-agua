@@ -1,0 +1,259 @@
+[
+  {
+    "type": "dica_casa",
+    "menu": "teste"
+  },
+  { 
+    "type": "porcoes",
+    "menus": [
+      { 
+        "name": "Tilápia",
+        "price": { "meia": "R$65.00", "inteira": "R$95.00" },
+        "obs": "acompanha fritas"
+      },
+      {
+        "name": "Costelinha de pacu",
+        "price": { "meia": "R$52.00", "inteira": "R$85.00" },
+        "obs": "acompanha fritas"
+      },
+      {
+        "name": "Lambari Frito",
+        "price": "R$40.00",
+        "obs": "500g"
+      },
+      {
+        "name": "Bolinho de siri",
+        "price": "R$38.00",
+        "obs": "06 unidades"
+      },
+      {
+        "name": "Bolinho de Bacalhau",
+        "price": "R$40.00",
+        "obs": "12 unidades"
+      },
+      {
+        "name": "Pastel de Tilápia",
+        "price": "R$40.00",
+        "obs": "12 unidades"
+      },
+      {
+        "name": "Sashimi temperado",
+        "price": { "meia": "R$35.00", "inteira": "58.00" },
+        "obs": "serve duas pessoas"
+      },
+      {
+        "name": "Ceviche de Tilápia",
+        "price": "R$56.00",
+        "obs": "tilápia rosa crua, pimenta dedo de moça, cebola roxa e salsinha"
+      },
+      {
+        "name": "Batata frita",
+        "price": "R$30.00",
+        "obs": "500g - (incluir bacon/queijo ou cheddar, acréscimo de R$10)"
+      },
+      {
+        "name": "Mandioca Frita",
+        "price": "R$18.00",
+        "obs": "500g"
+      },
+      {
+        "name": "Frango à Passarinho",
+        "price": "R$40.00",
+        "obs": "1kg"
+      },
+      {
+        "name": "Calabresa acebolada",
+        "price": "R$40.00"
+      },
+      {
+        "name": "Anéis de Cebola",
+        "price": "R$38.00",
+        "obs": "500g"
+      },
+      {
+        "name": "Pintado Frito",
+        "price": "R$52.00",
+        "obs": "500g"
+      },
+      {
+        "name": "Frios",
+        "price": "R$40.00",
+        "obs": "azeitona, presunto, muçarela e ovo de codorna"
+      },
+      {
+        "name": "Camarão Frito com casca ao Alho e Óleo",
+        "price": "R$69.00"
+      }
+    ]
+  },
+  {
+    "type": "refeicoes",
+    "menus": [
+      { 
+        "name": "Peixe ao molho",
+        "price": "R$80.00",
+        "obs": "(pintado, arroz e salada) SERVE 2 PESSOAS"
+      },
+      {
+        "name": "Mista Tilápia e Costelinha de Pacu",
+        "price": "R$120.00",
+        "obs": "(acompanha arroz e pirão) SERVE 3 PESSOAS"
+      },
+      {
+        "name": "Peixada na Telha (pintado)",
+        "price": "R$140.00",
+        "obs": "(arroz, pirão, mandioca frita, tilápia frita, salada à moda da casa e farofa) SERVE 3 PESSOAS"
+      },
+      {
+        "name": "Tilápia à Parmegiana",
+        "price": "R$90.00",
+        "obs": "(alface americana, palmito, tomate cereja, pepino, cebola roxa, molho especial, arroz, batata) SERVE 3 PESSOAS"
+      }
+    ]
+  },
+  { 
+    "type": "exec",
+    "menus": [
+      { 
+        "name": "Prato Feito",
+        "price": "R$30.00",
+        "obs": "(Acompanha arroz, feijão e salada)",
+        "options": ["Filé de Tilápia", "Filé de Frango", "Contra Filé"]
+      },
+      {
+        "name": "Parmegiana",
+        "price": "R$36.00",
+        "obs": "(acompanha salada e fritas)",
+        "options": ["Filé de Tilápia", "Filé de Frango", "Carne"]
+      }
+    ]
+  },
+  { 
+    "type": "porcoes_tres",
+    "menus": [
+      { 
+        "name": "Arroz",
+        "price": "R$20.00"
+      },
+      {
+        "name": "Feijão",
+        "price": "R$10.00"
+      },
+      {
+        "name": "Pirão",
+        "price": "R$25.00"
+      },
+      {
+        "name": "Sala à moda da casa",
+        "price": "R$25.00",
+        "obs": "(alface americana, tomate cereja, pepino, palmito e molho especial)"
+      }
+    ]
+  },
+  {
+    "type": "sobremesas",
+    "menus": [
+      {
+        "name": "Cone Recheado",
+        "price": "R$9.00"
+      },
+      {
+        "name": "Trufa",
+        "price": "R$5.00"
+      },
+      {
+        "name": "Bolo de pote",
+        "price": "R$10.00"
+      }
+    ]
+  },
+  { 
+    "type": "refris_sucos",
+    "menus": [
+      {
+        "name": "Água sem gás",
+        "price": "R$4.00"
+      },
+      {
+        "name": "Água com gás",
+        "price": "R$6.00"
+      },
+      {
+        "name": "Água Tônica lata",
+        "price": "R$7.00"
+      },
+      {
+        "name": "H20",
+        "price": "R$7.00"
+      },
+      {
+        "name": "Coca-Cola lata",
+        "price": "R$7.00"
+      },
+      {
+        "name": "Coca-cola 600ml",
+        "price": "R$10.00"
+      },
+      {
+        "name": "Coca-cola 1L",
+        "price": "R$12.00"
+      },
+      {
+        "name": "Guaraná Lata",
+        "price": "R$6.00"
+      }
+    ]
+  },
+  {
+    "type": "caipirinhas",
+    "menus": [
+      {
+        "name": "Caipirinha de Limão",
+        "price": "R$20.00",
+        "obs": "Morango ou Limão"
+      }
+    ]
+  },
+  {
+    "type": "cervejas",
+    "menus": [
+      {
+        "name": "Império",
+        "price": "R$12.90"
+      },
+      {
+        "name": "Antarctica",
+        "price": "R$12.90"
+      },
+      {
+        "name": "Brahma",
+        "price": "R$12.90"
+      },
+      {
+        "name": "Heineken",
+        "price": "R$17.00"
+      },
+      {
+        "name": "Original",
+        "price": "R$15.90"
+      },
+      {
+        "name": "Moinho Real Puro Malte",
+        "price": "R$9.90"
+      }
+    ]
+  },
+  {
+    "type": "doses",
+    "menus": [
+      {
+        "name": "Pinga 51 / Velho Barreiro",
+        "price": "R$5.00"
+      },
+      {
+        "name": "Cachaça artesanal de banana",
+        "price": "R$6.00"
+      }
+    ]
+  }
+]

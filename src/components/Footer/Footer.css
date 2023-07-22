@@ -1,0 +1,56 @@
+#footer {
+  background-color: rgb(27, 27, 27);
+  color: gold;
+  padding: 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-footer{
+  text-align: center;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#pix {
+  width: 30px;
+}
+
+#elo {
+  height: 29px;
+  width: 40px;
+}
+
+#address p{
+  width: 100%;
+}
+
+#address {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icon {
+  width: 38px;
+}
+
+#cpy-container p{
+  font-size: 5px;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+}
+
+.icon-payment {
+  margin-top: 3px;
+  width: 35px;
+  background-color: white;
+  height: 29px;
+  padding: 3px;
+  margin: 5px;
+  border-radius: 3px;
+}

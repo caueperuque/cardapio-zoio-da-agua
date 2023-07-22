@@ -1,0 +1,106 @@
+h2 {
+  font-size: 1rem;
+  /* padding: 10px; */
+  text-shadow: 0 0 10px black;
+}
+
+.menu-card__item, .menu-card__price {
+  font-weight: 800;
+  font-size: 0.8rem !important;
+  filter: brightness(120%);
+  text-shadow: 0 0 5px black;
+}
+
+.menu-card__item {
+  color: goldenrod;
+}
+
+/* .menu-card__section-topic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid goldenrod;
+  height: 10vh;
+} */
+
+.section-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.section-menu {
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  /* margin: 10px; */
+  width: 45vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+  animation-name: fade-in;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.arrow-icon {
+  width: 2rem;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);; /* Adicione uma borda na parte inferior para separar os itens */
+}
+
+.menu-item__name {
+  /* flex: 1; O nome do prato ocupará todo o espaço disponível */
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: flex-start;
+}
+
+.menu-item__content {
+  flex: 2; /* O conteúdo do prato ocupará o dobro do espaço do nome */
+  display: flex;
+  justify-content: flex-end; /* Os elementos ficarão alinhados à direita */
+  align-items: center;
+}
+
+.section-container {
+  padding-top: 20px;
+}
+
+.menu-item__name  p {
+  font-size: 0.6rem;
+  margin-bottom: 10px;
+  /* font-weight: 800; */
+  /* color: goldenrod; */
+  /* filter: brightness(120%); */
+  /* text-shadow: 0 0 5px black; */
+}
+
+.menu-card__container-price p{
+  font-size: 0.6rem;
+  width: 52px;
+  display: flex;
+  flex-direction: column;
+}
+
+@keyframes fade-in {
+  from {opacity: 0; transform: scale(0.95);}
+  to {opacity: 1; transform: scale(1);}
+}
+
+.menu-item li {
+  list-style: none;
+  font-weight: 800;
+  font-size: 0.8rem !important;
+  color: rgb(255, 134, 34);
+  filter: brightness(120%);
+  text-shadow: 0 0 5px black;
+}
