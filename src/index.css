@@ -14,7 +14,7 @@ main {
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  background-image: url('src/assets/images/bgtest1.jpg');
+  background-image: url('/src/assets/images/bgtest1.png');
   color: white;
   font-weight: 600;
   line-height: 1rem;
