@@ -30,7 +30,7 @@ export default function MenuCard() {
       {/* Dica da Casa */}
       <section className='section-container'>
         <div className="section-name">
-          <h2>DICA DA CASA</h2>
+          <h2>DICAS DA CASA</h2>
           <img
             className="arrow-icon"
             src={expandedSections.isDicaCasaExpanded ? upArrow : downArrow}
@@ -39,8 +39,29 @@ export default function MenuCard() {
         </div>
         {expandedSections.isDicaCasaExpanded && (
           <div className="section-menu">
-            <p className="menu-card__item">{data.find((item) => item.type === 'dica_casa').menu}</p>
-          </div>
+          {data.find((item) => item.type === 'dica').menus.map(({ name, price, obs }) => (
+            <div key={Math.random()} className="menu-item">
+              <div className="menu-item__name">
+                <h2 className="menu-card__item">{name.toUpperCase()}</h2>
+                {obs && <p>{obs}</p>}
+              </div>
+              <div className="menu-item__content">
+                {price.meia ? (
+                  <div className='menu-card__container-price'>
+                    <p>MEIA (400g)</p>
+                    <p className="menu-card__price">{price.meia}</p>
+                    <p>INTEIRA (800g)</p>
+                    <p className="menu-card__price"> {price.inteira} </p>
+                  </div>
+                ) : (
+                  <div>
+                    <p className="menu-card__price">{price}</p>
+                  </div>
+                )}
+              </div>
+            </div>
+          ))}
+        </div>
         )}
       </section>
 

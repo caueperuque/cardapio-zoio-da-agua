@@ -1,7 +1,18 @@
 [
   {
-    "type": "dica_casa",
-    "menu": "teste"
+    "type": "dica",
+    "menus": [
+      {
+        "name": "Kit Tilápia p/2 pessoas",
+        "price": "R$95.00",
+        "obs": "400g de tilápia acompanha fritas + arroz + pirão"
+      },
+      {
+        "name": "Filé de frango 500g acebolado",
+        "price": "R$40.00",
+        "obs": "acompanha fritas"
+      }
+    ]
   },
   { 
     "type": "porcoes",
@@ -100,13 +111,13 @@
         "obs": "(acompanha arroz e pirão) SERVE 3 PESSOAS"
       },
       {
-        "name": "Peixada na Telha (pintado)",
+        "name": "Peixada na Telha (pintado ao molho com pimentões)",
         "price": "R$140.00",
         "obs": "(arroz, pirão, mandioca frita, tilápia frita, salada à moda da casa e farofa) SERVE 3 PESSOAS"
       },
       {
         "name": "Tilápia à Parmegiana",
-        "price": "R$90.00",
+        "price": "R$115.00",
         "obs": "(alface americana, palmito, tomate cereja, pepino, cebola roxa, molho especial, arroz, batata) SERVE 3 PESSOAS"
       }
     ]
@@ -147,6 +158,16 @@
         "name": "Sala à moda da casa",
         "price": "R$25.00",
         "obs": "(alface americana, tomate cereja, pepino, palmito e molho especial)"
+      },
+      {
+        "name": "Carne à Parmegiana",
+        "price": "R$115.00",
+        "obs": "(alface americana, palmito, tomate cereja, pepino, cebola roxa, molho especial, arroz, batata) SERVE 3 PESSOAS"
+      },
+      {
+        "name": "Filé de Frango à Parmegiana",
+        "price": "R$95.00",
+        "obs": "(alface americana, palmito, tomate cereja, pepino, cebola roxa, molho especial, arroz, batata) SERVE 3 PESSOAS"
       }
     ]
   },
