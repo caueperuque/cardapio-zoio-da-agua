@@ -35,7 +35,7 @@ h2 {
   align-items: center;
   padding: 0.5rem;
   /* margin: 10px; */
-  width: 45vh;
+  width: 40vh;
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 1rem;
   box-shadow: 0 0 10px rgb(0, 0, 0);
@@ -86,8 +86,10 @@ h2 {
 
 .menu-card__container-price p{
   font-size: 0.6rem;
-  width: 52px;
+  width: 70px;
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
 }
 
@@ -103,4 +105,40 @@ h2 {
   color: rgb(255, 134, 34);
   filter: brightness(120%);
   text-shadow: 0 0 5px black;
+}
+
+.menu__container-filter {
+  padding: 50px;
+}
+
+.menu__input-filter {
+  height: 2em;
+  width: 250px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.menu-card__section-filtered-items {
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 10px;
+  width: 40vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.btn-order {
+  padding: 6px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  text-decoration: none;
+  color: goldenrod;
+  background-color: rgb(20, 20, 20);
+  border: none;
+  border-radius: 10px;
+  font-weight: 800;
+  /* border: solid red 2px; */
 }
