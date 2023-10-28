@@ -86,8 +86,10 @@ h2 {
 
 .menu-card__container-price p{
   font-size: 0.6rem;
-  width: 52px;
+  width: 70px;
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
 }
 
@@ -129,6 +131,14 @@ h2 {
 
 .btn-order {
   padding: 6px;
-  margin-top: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  text-decoration: none;
+  color: goldenrod;
+  background-color: rgb(20, 20, 20);
+  border: none;
+  border-radius: 10px;
+  font-weight: 800;
   /* border: solid red 2px; */
 }
