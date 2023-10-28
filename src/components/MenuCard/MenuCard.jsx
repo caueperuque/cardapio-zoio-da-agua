@@ -68,7 +68,7 @@ export default function MenuCard() {
                     <button className="btn-order">
                       <a
                         className="btn-order"
-                        href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} (meia / inteira)`}
+                        href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} meia`}
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -80,7 +80,7 @@ export default function MenuCard() {
                     <button className="btn-order">
                       <a
                         className="btn-order"
-                        href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} (meia / inteira)`}
+                        href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} inteira`}
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -94,7 +94,7 @@ export default function MenuCard() {
                     <button className="btn-order">
                       <a
                         className="btn-order"
-                        href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} (meia / inteira)`}
+                        href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name}`}
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -137,22 +137,32 @@ export default function MenuCard() {
                         {price.meia ? (
                           <div className="menu-card__container-price">
                             <p>MEIA (400g)</p>
+                            <p className="menu-card__price">{price.meia}</p>
                             <button className="btn-order">
                               <a
                                 className="btn-order"
-                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} (meia / inteira)`}
+                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} meia`}
                                 target="_blank"
                                 rel="noreferrer"
                               >
                                 Pedir
                               </a>
                             </button>
-                            <p className="menu-card__price">{price.meia}</p>
                             <p>INTEIRA (800g)</p>
                             <p className="menu-card__price">
                               {" "}
                               {price.inteira}{" "}
                             </p>
+                            <button className="btn-order">
+                              <a
+                                className="btn-order"
+                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} inteira`}
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                Pedir
+                              </a>
+                            </button>
                           </div>
                         ) : (
                           <div>
@@ -160,7 +170,7 @@ export default function MenuCard() {
                             <button className="btn-order">
                               <a
                                 className="btn-order"
-                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} (meia / inteira)`}
+                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} `}
                                 target="_blank"
                                 rel="noreferrer"
                               >
@@ -202,22 +212,32 @@ export default function MenuCard() {
                       {price.meia ? (
                           <div className="menu-card__container-price">
                             <p>MEIA (400g)</p>
+                            <p className="menu-card__price">{price.meia}</p>
                             <button className="btn-order">
                               <a
                                 className="btn-order"
-                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} (meia / inteira)`}
+                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} meia`}
                                 target="_blank"
                                 rel="noreferrer"
                               >
                                 Pedir
                               </a>
                             </button>
-                            <p className="menu-card__price">{price.meia}</p>
                             <p>INTEIRA (800g)</p>
                             <p className="menu-card__price">
                               {" "}
                               {price.inteira}{" "}
                             </p>
+                            <button className="btn-order">
+                              <a
+                                className="btn-order"
+                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} inteira`}
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                Pedir
+                              </a>
+                            </button>
                           </div>
                         ) : (
                           <div>
@@ -225,7 +245,7 @@ export default function MenuCard() {
                             <button className="btn-order">
                               <a
                                 className="btn-order"
-                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} (meia / inteira)`}
+                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} `}
                                 target="_blank"
                                 rel="noreferrer"
                               >
@@ -266,18 +286,19 @@ export default function MenuCard() {
                       {price.meia ? (
                           <div className="menu-card__container-price">
                             <p>MEIA (400g)</p>
+                            <p className="menu-card__price">{price.meia}</p>
                             <button className="btn-order">
                               <a
                                 className="btn-order"
-                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} (meia / inteira)`}
+                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} meia`}
                                 target="_blank"
                                 rel="noreferrer"
                               >
                                 Pedir
                               </a>
                             </button>
-                            <p className="menu-card__price">{price.meia}</p>
                             <p>INTEIRA (800g)</p>
+                            
                             <p className="menu-card__price">
                               {" "}
                               {price.inteira}{" "}
@@ -289,7 +310,7 @@ export default function MenuCard() {
                             <button className="btn-order">
                               <a
                                 className="btn-order"
-                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} (meia / inteira)`}
+                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} `}
                                 target="_blank"
                                 rel="noreferrer"
                               >
@@ -336,18 +357,19 @@ export default function MenuCard() {
                       {price.meia ? (
                           <div className="menu-card__container-price">
                             <p>MEIA (400g)</p>
+                            <p className="menu-card__price">{price.meia}</p>
                             <button className="btn-order">
                               <a
                                 className="btn-order"
-                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} (meia / inteira)`}
+                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} meia`}
                                 target="_blank"
                                 rel="noreferrer"
                               >
                                 Pedir
                               </a>
                             </button>
-                            <p className="menu-card__price">{price.meia}</p>
                             <p>INTEIRA (800g)</p>
+                            
                             <p className="menu-card__price">
                               {" "}
                               {price.inteira}{" "}
@@ -359,7 +381,7 @@ export default function MenuCard() {
                             <button className="btn-order">
                               <a
                                 className="btn-order"
-                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} (meia / inteira)`}
+                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} `}
                                 target="_blank"
                                 rel="noreferrer"
                               >
@@ -401,18 +423,19 @@ export default function MenuCard() {
                       {price.meia ? (
                           <div className="menu-card__container-price">
                             <p>MEIA (400g)</p>
+                            <p className="menu-card__price">{price.meia}</p>
                             <button className="btn-order">
                               <a
                                 className="btn-order"
-                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} (meia / inteira)`}
+                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} meia`}
                                 target="_blank"
                                 rel="noreferrer"
                               >
                                 Pedir
                               </a>
                             </button>
-                            <p className="menu-card__price">{price.meia}</p>
                             <p>INTEIRA (800g)</p>
+                            
                             <p className="menu-card__price">
                               {" "}
                               {price.inteira}{" "}
@@ -424,7 +447,7 @@ export default function MenuCard() {
                             <button className="btn-order">
                               <a
                                 className="btn-order"
-                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} (meia / inteira)`}
+                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} `}
                                 target="_blank"
                                 rel="noreferrer"
                               >
@@ -466,18 +489,19 @@ export default function MenuCard() {
                       {price.meia ? (
                           <div className="menu-card__container-price">
                             <p>MEIA (400g)</p>
+                            <p className="menu-card__price">{price.meia}</p>
                             <button className="btn-order">
                               <a
                                 className="btn-order"
-                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} (meia / inteira)`}
+                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} meia`}
                                 target="_blank"
                                 rel="noreferrer"
                               >
                                 Pedir
                               </a>
                             </button>
-                            <p className="menu-card__price">{price.meia}</p>
                             <p>INTEIRA (800g)</p>
+                            
                             <p className="menu-card__price">
                               {" "}
                               {price.inteira}{" "}
@@ -489,7 +513,7 @@ export default function MenuCard() {
                             <button className="btn-order">
                               <a
                                 className="btn-order"
-                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} (meia / inteira)`}
+                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} `}
                                 target="_blank"
                                 rel="noreferrer"
                               >
@@ -531,18 +555,19 @@ export default function MenuCard() {
                       {price.meia ? (
                           <div className="menu-card__container-price">
                             <p>MEIA (400g)</p>
+                            <p className="menu-card__price">{price.meia}</p>
                             <button className="btn-order">
                               <a
                                 className="btn-order"
-                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} (meia / inteira)`}
+                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} meia`}
                                 target="_blank"
                                 rel="noreferrer"
                               >
                                 Pedir
                               </a>
                             </button>
-                            <p className="menu-card__price">{price.meia}</p>
                             <p>INTEIRA (800g)</p>
+                            
                             <p className="menu-card__price">
                               {" "}
                               {price.inteira}{" "}
@@ -554,7 +579,7 @@ export default function MenuCard() {
                             <button className="btn-order">
                               <a
                                 className="btn-order"
-                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} (meia / inteira)`}
+                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} `}
                                 target="_blank"
                                 rel="noreferrer"
                               >
@@ -596,18 +621,19 @@ export default function MenuCard() {
                       {price.meia ? (
                           <div className="menu-card__container-price">
                             <p>MEIA (400g)</p>
+                            <p className="menu-card__price">{price.meia}</p>
                             <button className="btn-order">
                               <a
                                 className="btn-order"
-                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} (meia / inteira)`}
+                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} meia`}
                                 target="_blank"
                                 rel="noreferrer"
                               >
                                 Pedir
                               </a>
                             </button>
-                            <p className="menu-card__price">{price.meia}</p>
                             <p>INTEIRA (800g)</p>
+                            
                             <p className="menu-card__price">
                               {" "}
                               {price.inteira}{" "}
@@ -619,7 +645,7 @@ export default function MenuCard() {
                             <button className="btn-order">
                               <a
                                 className="btn-order"
-                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} (meia / inteira)`}
+                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} `}
                                 target="_blank"
                                 rel="noreferrer"
                               >
@@ -659,18 +685,19 @@ export default function MenuCard() {
                       {price.meia ? (
                           <div className="menu-card__container-price">
                             <p>MEIA (400g)</p>
+                            <p className="menu-card__price">{price.meia}</p>
                             <button className="btn-order">
                               <a
                                 className="btn-order"
-                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} (meia / inteira)`}
+                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} meia`}
                                 target="_blank"
                                 rel="noreferrer"
                               >
                                 Pedir
                               </a>
                             </button>
-                            <p className="menu-card__price">{price.meia}</p>
                             <p>INTEIRA (800g)</p>
+                            
                             <p className="menu-card__price">
                               {" "}
                               {price.inteira}{" "}
@@ -682,7 +709,7 @@ export default function MenuCard() {
                             <button className="btn-order">
                               <a
                                 className="btn-order"
-                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} (meia / inteira)`}
+                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} `}
                                 target="_blank"
                                 rel="noreferrer"
                               >
@@ -722,18 +749,19 @@ export default function MenuCard() {
                       {price.meia ? (
                           <div className="menu-card__container-price">
                             <p>MEIA (400g)</p>
+                            <p className="menu-card__price">{price.meia}</p>
                             <button className="btn-order">
                               <a
                                 className="btn-order"
-                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} (meia / inteira)`}
+                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} meia`}
                                 target="_blank"
                                 rel="noreferrer"
                               >
                                 Pedir
                               </a>
                             </button>
-                            <p className="menu-card__price">{price.meia}</p>
                             <p>INTEIRA (800g)</p>
+                            
                             <p className="menu-card__price">
                               {" "}
                               {price.inteira}{" "}
@@ -745,7 +773,7 @@ export default function MenuCard() {
                             <button className="btn-order">
                               <a
                                 className="btn-order"
-                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} (meia / inteira)`}
+                                href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} `}
                                 target="_blank"
                                 rel="noreferrer"
                               >
