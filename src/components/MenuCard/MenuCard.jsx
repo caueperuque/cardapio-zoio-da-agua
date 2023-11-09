@@ -65,7 +65,7 @@ export default function MenuCard() {
                   <div className="menu-card__container-price">
                     <p>MEIA (400g)</p>
                     <p className="menu-card__price">{price.meia}</p>
-                    <button className="btn-order">
+                    {/* <button className="btn-order">
                       <a
                         className="btn-order"
                         href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} meia`}
@@ -74,10 +74,10 @@ export default function MenuCard() {
                       >
                         Pedir
                       </a>
-                    </button>
+                    </button> */}
                     <p>INTEIRA (800g)</p>
                     <p className="menu-card__price"> {price.inteira} </p>
-                    <button className="btn-order">
+                    {/* <button className="btn-order">
                       <a
                         className="btn-order"
                         href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} inteira`}
@@ -86,12 +86,12 @@ export default function MenuCard() {
                       >
                         Pedir
                       </a>
-                    </button>
+                    </button> */}
                   </div>
                 ) : (
                   <div>
-                    <p className="menu-card__price">{price}</p>
-                    <button className="btn-order">
+                     <p className="menu-card__price">{price}</p>
+                    {/* <button className="btn-order">
                       <a
                         className="btn-order"
                         href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name}`}
@@ -100,7 +100,7 @@ export default function MenuCard() {
                       >
                         Pedir
                       </a>
-                    </button>
+                    </button> */}
                   </div>
                 )}
               </div>
@@ -138,7 +138,7 @@ export default function MenuCard() {
                           <div className="menu-card__container-price">
                             <p>MEIA (400g)</p>
                             <p className="menu-card__price">{price.meia}</p>
-                            <button className="btn-order">
+                            {/* <button className="btn-order">
                               <a
                                 className="btn-order"
                                 href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} meia`}
@@ -147,13 +147,13 @@ export default function MenuCard() {
                               >
                                 Pedir
                               </a>
-                            </button>
+                            </button> */}
                             <p>INTEIRA (800g)</p>
                             <p className="menu-card__price">
                               {" "}
                               {price.inteira}{" "}
                             </p>
-                            <button className="btn-order">
+                            {/* <button className="btn-order">
                               <a
                                 className="btn-order"
                                 href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} inteira`}
@@ -162,12 +162,12 @@ export default function MenuCard() {
                               >
                                 Pedir
                               </a>
-                            </button>
+                            </button> */}
                           </div>
                         ) : (
                           <div>
                             <p className="menu-card__price">{price}</p>
-                            <button className="btn-order">
+                            {/* <button className="btn-order">
                               <a
                                 className="btn-order"
                                 href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} `}
@@ -176,7 +176,7 @@ export default function MenuCard() {
                               >
                                 Pedir
                               </a>
-                            </button>
+                            </button> */}
                           </div>
                         )}
                       </div>
@@ -213,7 +213,7 @@ export default function MenuCard() {
                           <div className="menu-card__container-price">
                             <p>MEIA (400g)</p>
                             <p className="menu-card__price">{price.meia}</p>
-                            <button className="btn-order">
+                            {/* <button className="btn-order">
                               <a
                                 className="btn-order"
                                 href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} meia`}
@@ -222,13 +222,13 @@ export default function MenuCard() {
                               >
                                 Pedir
                               </a>
-                            </button>
+                            </button> */}
                             <p>INTEIRA (800g)</p>
                             <p className="menu-card__price">
                               {" "}
                               {price.inteira}{" "}
                             </p>
-                            <button className="btn-order">
+                            {/* <button className="btn-order">
                               <a
                                 className="btn-order"
                                 href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} inteira`}
@@ -237,12 +237,12 @@ export default function MenuCard() {
                               >
                                 Pedir
                               </a>
-                            </button>
+                            </button> */}
                           </div>
                         ) : (
                           <div>
                             <p className="menu-card__price">{price}</p>
-                            <button className="btn-order">
+                            {/* <button className="btn-order">
                               <a
                                 className="btn-order"
                                 href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} `}
@@ -251,7 +251,7 @@ export default function MenuCard() {
                               >
                                 Pedir
                               </a>
-                            </button>
+                            </button> */}
                           </div>
                         )}
                       </div>
@@ -287,7 +287,7 @@ export default function MenuCard() {
                           <div className="menu-card__container-price">
                             <p>MEIA (400g)</p>
                             <p className="menu-card__price">{price.meia}</p>
-                            <button className="btn-order">
+                            {/* <button className="btn-order">
                               <a
                                 className="btn-order"
                                 href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} meia`}
@@ -296,7 +296,7 @@ export default function MenuCard() {
                               >
                                 Pedir
                               </a>
-                            </button>
+                            </button> */}
                             <p>INTEIRA (800g)</p>
                             
                             <p className="menu-card__price">
@@ -307,7 +307,7 @@ export default function MenuCard() {
                         ) : (
                           <div>
                             <p className="menu-card__price">{price}</p>
-                            <button className="btn-order">
+                            {/* <button className="btn-order">
                               <a
                                 className="btn-order"
                                 href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} `}
@@ -316,7 +316,7 @@ export default function MenuCard() {
                               >
                                 Pedir
                               </a>
-                            </button>
+                            </button> */}
                           </div>
                         )}
                     </div>
@@ -358,7 +358,7 @@ export default function MenuCard() {
                           <div className="menu-card__container-price">
                             <p>MEIA (400g)</p>
                             <p className="menu-card__price">{price.meia}</p>
-                            <button className="btn-order">
+                            {/* <button className="btn-order">
                               <a
                                 className="btn-order"
                                 href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} meia`}
@@ -367,7 +367,7 @@ export default function MenuCard() {
                               >
                                 Pedir
                               </a>
-                            </button>
+                            </button> */}
                             <p>INTEIRA (800g)</p>
                             
                             <p className="menu-card__price">
@@ -378,7 +378,7 @@ export default function MenuCard() {
                         ) : (
                           <div>
                             <p className="menu-card__price">{price}</p>
-                            <button className="btn-order">
+                            {/* <button className="btn-order">
                               <a
                                 className="btn-order"
                                 href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} `}
@@ -387,7 +387,7 @@ export default function MenuCard() {
                               >
                                 Pedir
                               </a>
-                            </button>
+                            </button> */}
                           </div>
                         )}
                     </div>
@@ -424,7 +424,7 @@ export default function MenuCard() {
                           <div className="menu-card__container-price">
                             <p>MEIA (400g)</p>
                             <p className="menu-card__price">{price.meia}</p>
-                            <button className="btn-order">
+                            {/* <button className="btn-order">
                               <a
                                 className="btn-order"
                                 href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} meia`}
@@ -433,7 +433,7 @@ export default function MenuCard() {
                               >
                                 Pedir
                               </a>
-                            </button>
+                            </button> */}
                             <p>INTEIRA (800g)</p>
                             
                             <p className="menu-card__price">
@@ -444,7 +444,7 @@ export default function MenuCard() {
                         ) : (
                           <div>
                             <p className="menu-card__price">{price}</p>
-                            <button className="btn-order">
+                            {/* <button className="btn-order">
                               <a
                                 className="btn-order"
                                 href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} `}
@@ -453,7 +453,7 @@ export default function MenuCard() {
                               >
                                 Pedir
                               </a>
-                            </button>
+                            </button> */}
                           </div>
                         )}
                     </div>
@@ -490,7 +490,7 @@ export default function MenuCard() {
                           <div className="menu-card__container-price">
                             <p>MEIA (400g)</p>
                             <p className="menu-card__price">{price.meia}</p>
-                            <button className="btn-order">
+                            {/* <button className="btn-order">
                               <a
                                 className="btn-order"
                                 href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} meia`}
@@ -499,7 +499,7 @@ export default function MenuCard() {
                               >
                                 Pedir
                               </a>
-                            </button>
+                            </button> */}
                             <p>INTEIRA (800g)</p>
                             
                             <p className="menu-card__price">
@@ -510,7 +510,7 @@ export default function MenuCard() {
                         ) : (
                           <div>
                             <p className="menu-card__price">{price}</p>
-                            <button className="btn-order">
+                            {/* <button className="btn-order">
                               <a
                                 className="btn-order"
                                 href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} `}
@@ -519,7 +519,7 @@ export default function MenuCard() {
                               >
                                 Pedir
                               </a>
-                            </button>
+                            </button> */}
                           </div>
                         )}
                     </div>
@@ -556,7 +556,7 @@ export default function MenuCard() {
                           <div className="menu-card__container-price">
                             <p>MEIA (400g)</p>
                             <p className="menu-card__price">{price.meia}</p>
-                            <button className="btn-order">
+                            {/* <button className="btn-order">
                               <a
                                 className="btn-order"
                                 href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} meia`}
@@ -565,7 +565,7 @@ export default function MenuCard() {
                               >
                                 Pedir
                               </a>
-                            </button>
+                            </button> */}
                             <p>INTEIRA (800g)</p>
                             
                             <p className="menu-card__price">
@@ -576,7 +576,7 @@ export default function MenuCard() {
                         ) : (
                           <div>
                             <p className="menu-card__price">{price}</p>
-                            <button className="btn-order">
+                            {/* <button className="btn-order">
                               <a
                                 className="btn-order"
                                 href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} `}
@@ -585,7 +585,7 @@ export default function MenuCard() {
                               >
                                 Pedir
                               </a>
-                            </button>
+                            </button> */}
                           </div>
                         )}
                     </div>
@@ -622,7 +622,7 @@ export default function MenuCard() {
                           <div className="menu-card__container-price">
                             <p>MEIA (400g)</p>
                             <p className="menu-card__price">{price.meia}</p>
-                            <button className="btn-order">
+                            {/* <button className="btn-order">
                               <a
                                 className="btn-order"
                                 href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} meia`}
@@ -631,7 +631,7 @@ export default function MenuCard() {
                               >
                                 Pedir
                               </a>
-                            </button>
+                            </button> */}
                             <p>INTEIRA (800g)</p>
                             
                             <p className="menu-card__price">
@@ -642,7 +642,7 @@ export default function MenuCard() {
                         ) : (
                           <div>
                             <p className="menu-card__price">{price}</p>
-                            <button className="btn-order">
+                            {/* <button className="btn-order">
                               <a
                                 className="btn-order"
                                 href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} `}
@@ -651,7 +651,7 @@ export default function MenuCard() {
                               >
                                 Pedir
                               </a>
-                            </button>
+                            </button> */}
                           </div>
                         )}
                     </div>
@@ -686,7 +686,7 @@ export default function MenuCard() {
                           <div className="menu-card__container-price">
                             <p>MEIA (400g)</p>
                             <p className="menu-card__price">{price.meia}</p>
-                            <button className="btn-order">
+                            {/* <button className="btn-order">
                               <a
                                 className="btn-order"
                                 href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} meia`}
@@ -695,7 +695,7 @@ export default function MenuCard() {
                               >
                                 Pedir
                               </a>
-                            </button>
+                            </button> */}
                             <p>INTEIRA (800g)</p>
                             
                             <p className="menu-card__price">
@@ -706,7 +706,7 @@ export default function MenuCard() {
                         ) : (
                           <div>
                             <p className="menu-card__price">{price}</p>
-                            <button className="btn-order">
+                            {/* <button className="btn-order">
                               <a
                                 className="btn-order"
                                 href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} `}
@@ -715,7 +715,7 @@ export default function MenuCard() {
                               >
                                 Pedir
                               </a>
-                            </button>
+                            </button> */}
                           </div>
                         )}
                     </div>
@@ -750,7 +750,7 @@ export default function MenuCard() {
                           <div className="menu-card__container-price">
                             <p>MEIA (400g)</p>
                             <p className="menu-card__price">{price.meia}</p>
-                            <button className="btn-order">
+                            {/* <button className="btn-order">
                               <a
                                 className="btn-order"
                                 href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} meia`}
@@ -759,7 +759,7 @@ export default function MenuCard() {
                               >
                                 Pedir
                               </a>
-                            </button>
+                            </button> */}
                             <p>INTEIRA (800g)</p>
                             
                             <p className="menu-card__price">
@@ -770,7 +770,7 @@ export default function MenuCard() {
                         ) : (
                           <div>
                             <p className="menu-card__price">{price}</p>
-                            <button className="btn-order">
+                            {/* <button className="btn-order">
                               <a
                                 className="btn-order"
                                 href={`https://wa.me/5518996639048?text=Olá, Mesa:(nº da mesa) \n Pedidos: \n -${name} `}
@@ -779,7 +779,7 @@ export default function MenuCard() {
                               >
                                 Pedir
                               </a>
-                            </button>
+                            </button> */}
                           </div>
                         )}
                     </div>

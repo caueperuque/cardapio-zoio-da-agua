@@ -4,7 +4,7 @@
     "menus": [
       {
         "name": "Kit Tilápia p/2 pessoas",
-        "price": "R$95.00",
+        "price": "R$105.00",
         "obs": "400g de tilápia acompanha fritas + arroz + pirão"
       },
       {
@@ -19,7 +19,7 @@
     "menus": [
       { 
         "name": "Tilápia",
-        "price": { "meia": "R$65.00", "inteira": "R$95.00" },
+        "price": { "meia": "R$68.00", "inteira": "R$95.00" },
         "obs": "acompanha fritas"
       },
       {
@@ -49,7 +49,7 @@
       },
       {
         "name": "Sashimi temperado",
-        "price": { "meia": "R$35.00", "inteira": "58.00" },
+        "price": { "meia": "R$35.00", "inteira": "64.00" },
         "obs": "serve duas pessoas"
       },
       {
@@ -59,12 +59,17 @@
       },
       {
         "name": "Batata frita",
-        "price": "R$30.00",
+        "price": "R$35.00",
         "obs": "500g - (incluir bacon/queijo ou cheddar, acréscimo de R$10)"
       },
       {
         "name": "Mandioca Frita",
-        "price": "R$18.00",
+        "price": "R$20.00",
+        "obs": "500g"
+      },
+      {
+        "name": "Anel de Cebola",
+        "price": "R$45.00",
         "obs": "500g"
       },
       {
@@ -166,7 +171,7 @@
       },
       {
         "name": "Filé de Frango à Parmegiana",
-        "price": "R$95.00",
+        "price": "R$85.00",
         "obs": "(alface americana, palmito, tomate cereja, pepino, cebola roxa, molho especial, arroz, batata) SERVE 3 PESSOAS"
       }
     ]
