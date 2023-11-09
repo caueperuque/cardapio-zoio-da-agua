@@ -5,7 +5,7 @@
       {
         "name": "Kit Tilápia p/2 pessoas",
         "price": "R$105.00",
-        "obs": "400g de tilápia acompanha fritas + arroz + pirão"
+        "obs": "400g de tilápia acompanha fritas + arroz + pirão ou vinagrete"
       },
       {
         "name": "Filé de frango 500g acebolado",
@@ -24,7 +24,7 @@
       },
       {
         "name": "Costelinha de pacu",
-        "price": { "meia": "R$52.00", "inteira": "R$85.00" },
+        "price": { "meia": "R$58.00", "inteira": "R$89.00" },
         "obs": "acompanha fritas"
       },
       {
@@ -34,7 +34,7 @@
       },
       {
         "name": "Bolinho de siri",
-        "price": "R$38.00",
+        "price": "R$40.00",
         "obs": "06 unidades"
       },
       {
@@ -68,11 +68,6 @@
         "obs": "500g"
       },
       {
-        "name": "Anel de Cebola",
-        "price": "R$45.00",
-        "obs": "500g"
-      },
-      {
         "name": "Frango à Passarinho",
         "price": "R$40.00",
         "obs": "1kg"
@@ -83,12 +78,12 @@
       },
       {
         "name": "Anéis de Cebola",
-        "price": "R$38.00",
+        "price": "R$45.00",
         "obs": "500g"
       },
       {
         "name": "Pintado Frito",
-        "price": "R$52.00",
+        "price": "R$65.00",
         "obs": "500g"
       },
       {
@@ -107,17 +102,17 @@
     "menus": [
       { 
         "name": "Peixe ao molho",
-        "price": "R$80.00",
+        "price": "R$85.00",
         "obs": "(pintado, arroz e salada) SERVE 2 PESSOAS"
       },
       {
         "name": "Mista Tilápia e Costelinha de Pacu",
-        "price": "R$120.00",
+        "price": "R$125.00",
         "obs": "(acompanha arroz e pirão) SERVE 3 PESSOAS"
       },
       {
         "name": "Peixada na Telha (pintado ao molho com pimentões)",
-        "price": "R$140.00",
+        "price": "R$145.00",
         "obs": "(arroz, pirão, mandioca frita, tilápia frita, salada à moda da casa e farofa) SERVE 3 PESSOAS"
       },
       {
@@ -138,7 +133,7 @@
       },
       {
         "name": "Parmegiana",
-        "price": "R$36.00",
+        "price": "R$38.00",
         "obs": "(acompanha salada e fritas)",
         "options": ["Filé de Tilápia", "Filé de Frango", "Carne"]
       }
