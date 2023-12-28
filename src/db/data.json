@@ -4,12 +4,12 @@
     "menus": [
       {
         "name": "Kit Tilápia p/2 pessoas",
-        "price": "R$105.00",
+        "price": "R$110.00",
         "obs": "400g de tilápia acompanha fritas + arroz + pirão ou vinagrete"
       },
       {
         "name": "Filé de frango 500g acebolado",
-        "price": "R$40.00",
+        "price": "R$48.00",
         "obs": "acompanha fritas"
       }
     ]
@@ -19,12 +19,12 @@
     "menus": [
       { 
         "name": "Tilápia",
-        "price": { "meia": "R$68.00", "inteira": "R$95.00" },
+        "price": { "meia": "R$69.90", "inteira": "R$95.00" },
         "obs": "acompanha fritas"
       },
       {
         "name": "Costelinha de pacu",
-        "price": { "meia": "R$58.00", "inteira": "R$89.00" },
+        "price": { "meia": "R$65.00", "inteira": "R$89.90" },
         "obs": "acompanha fritas"
       },
       {
@@ -44,17 +44,17 @@
       },
       {
         "name": "Pastel de Tilápia",
-        "price": "R$40.00",
+        "price": "R$45.00",
         "obs": "12 unidades"
       },
       {
         "name": "Sashimi temperado",
-        "price": { "meia": "R$35.00", "inteira": "64.00" },
+        "price": { "meia": "R$35.00", "inteira": "69.00" },
         "obs": "serve duas pessoas"
       },
       {
         "name": "Ceviche de Tilápia",
-        "price": "R$56.00",
+        "price": "R$58.00",
         "obs": "tilápia rosa crua, pimenta dedo de moça, cebola roxa e salsinha"
       },
       {
@@ -69,7 +69,7 @@
       },
       {
         "name": "Frango à Passarinho",
-        "price": "R$40.00",
+        "price": "R$43.00",
         "obs": "1kg"
       },
       {
@@ -83,7 +83,7 @@
       },
       {
         "name": "Pintado Frito",
-        "price": "R$65.00",
+        "price": "R$70.00",
         "obs": "500g"
       },
       {
@@ -93,7 +93,7 @@
       },
       {
         "name": "Camarão Frito com casca ao Alho e Óleo",
-        "price": "R$69.00"
+        "price": "R$69.90"
       }
     ]
   },
@@ -102,22 +102,22 @@
     "menus": [
       { 
         "name": "Peixe ao molho",
-        "price": "R$85.00",
+        "price": "R$155.00",
         "obs": "(pintado, arroz e salada) SERVE 2 PESSOAS"
       },
       {
         "name": "Mista Tilápia e Costelinha de Pacu",
-        "price": "R$125.00",
+        "price": "R$135.00",
         "obs": "(acompanha arroz e pirão) SERVE 3 PESSOAS"
       },
       {
         "name": "Peixada na Telha (pintado ao molho com pimentões)",
-        "price": "R$145.00",
+        "price": "R$155.00",
         "obs": "(arroz, pirão, mandioca frita, tilápia frita, salada à moda da casa e farofa) SERVE 3 PESSOAS"
       },
       {
         "name": "Tilápia à Parmegiana",
-        "price": "R$115.00",
+        "price": "R$125.00",
         "obs": "(alface americana, palmito, tomate cereja, pepino, cebola roxa, molho especial, arroz, batata) SERVE 3 PESSOAS"
       }
     ]
@@ -176,15 +176,15 @@
     "menus": [
       {
         "name": "Cone Recheado",
-        "price": "R$9.00"
+        "price": "R$10.00"
       },
       {
         "name": "Trufa",
-        "price": "R$5.00"
+        "price": "R$6.00"
       },
       {
         "name": "Bolo de pote",
-        "price": "R$10.00"
+        "price": "R$13.00"
       }
     ]
   },
@@ -209,7 +209,7 @@
       },
       {
         "name": "Coca-Cola lata",
-        "price": "R$7.00"
+        "price": "R$8.00"
       },
       {
         "name": "Coca-cola 600ml",
@@ -260,7 +260,7 @@
       },
       {
         "name": "Moinho Real Puro Malte",
-        "price": "R$9.90"
+        "price": "R$10.90"
       }
     ]
   },
